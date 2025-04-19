@@ -1,0 +1,23 @@
+   ```html
+   <!DOCTYPE html>
+   <html lang="de">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Umfrage-Zuweisung</title>
+       <script>
+           window.onload = function() {
+               let random = Math.random();
+               if (random < 0.5) {
+                   window.location.href = "https://survey.lamapoll.de/The-Taste-of-Advertising-Wie-Werbung-auf-uns-wirkt"; 
+               } else {
+                   window.location.href = "https://survey.lamapoll.de/The-Taste-of-Advertising-Wie-Werbung-auf-uns-wirkt-2"; 
+               }
+           };
+       </script>
+   </head>
+   <body>
+       <p>Sie werden zur Umfrage weitergeleitet...</p>
+   </body>
+   </html>
+   ```
